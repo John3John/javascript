@@ -1,4 +1,4 @@
-console.log(typeof Object)       // cria uma função 
+console.log(typeof Object)       // verifica o tipo da de Object 
 console.log(typeof new Object()) // cria um objeto 
 
 
