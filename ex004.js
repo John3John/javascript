@@ -18,6 +18,5 @@ console.log(n,i)
 const {sobrenome, bemHumorada = true} = pessoa
 console.log(sobrenome, bemHumorada)
 
-const {endereço: {logradouro, numero, cep} } = pessoa
-console.log(logradouro,numero,cep)
+
 
