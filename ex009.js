@@ -8,3 +8,6 @@ function Podometro(){
 }
 
 new Podometro
+
+/*Função para contar passos, usando .bind(this)
+para aponta-lo para dentro da função.*/
