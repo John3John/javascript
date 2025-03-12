@@ -11,3 +11,48 @@ new Podometro
 
 /*Função para contar passos, usando .bind(this)
 para aponta-lo para dentro da função.*/
+
+
+//-----------------Exercício--------------------
+//Fazer um progama que tenha um temporizador.
+
+function temporizador(){
+    this.tempo = 0
+
+    setInterval(function(){
+        this.tempo++
+        console.log(this.tempo)
+    }.bind(this),500)
+}
+
+new temporizador
+
+
+
+//-----------------Exercício2--------------------
+//Fazer um progama que tenha um temporizador regressivo.
+
+function cont_regressivo(){
+    this.regressivo = 8
+
+    setInterval(function(){
+        this.regressivo--
+        console.log(this.regressivo)
+    }.bind(this),1000)
+}
+
+new cont_regressivo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
