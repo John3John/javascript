@@ -8,3 +8,6 @@ function pessoa(){
 }
 
 new pessoa
+
+//O arrow function vai manter o 'this'
+//estritamente focado no escopo? SIM!
