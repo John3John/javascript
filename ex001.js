@@ -13,3 +13,6 @@ console.log(a,b)
 
 const c = 15
 console.log(c)
+
+//Ex
+console.log('Hello World!')
