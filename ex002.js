@@ -12,3 +12,15 @@ console.log(typeof Produto)
 console.log(typeof new Produto()) // Instanciando essa classe temos o objeto.
 
 
+//EX
+const readline = require('readline');
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question('Digite o seu nome: ', (nome) => {
+    console.log(`É um prazer te conhecer ${nome}! Seja Bem-Vindo ao curso de Javascript!`);
+    rl.close();
+});
